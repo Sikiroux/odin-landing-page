@@ -100,3 +100,55 @@ ul {
 }
 
 /* 2nd part */
+
+.header_info {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    color: blue;
+    border: 9px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    text-align: center;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 20px;
+}
+
+/* 3rd Part */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#quote  {
+    font-size: 32px;
+    font-style: light italic;
+    color: #1F2937;
+    width: 700px;
+    padding: 45px;
+}
+
+.name {
+    font-weight: bold;
+}
