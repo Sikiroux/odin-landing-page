@@ -10,7 +10,6 @@ body {
     display: flex;
     font-size: 24px;
     color: white;
-    margin-left: 150px;
     align-items: center;
 }
 
@@ -26,12 +25,15 @@ ul {
     gap: 16px;
     margin-left: auto;
     align-items: center;
-    margin-right: 150px;
 }
 
 .headers {
     display: flex;
     padding-bottom: 70px;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 
@@ -47,7 +49,6 @@ ul {
     padding: 120px;
     background-color: grey;
     color: white;
-    margin-left: auto;
     margin-right: 150px;
     
 }
@@ -97,6 +98,7 @@ ul {
 .section_two {
     display: flex;
     padding-bottom: 50px;
+    justify-content: space-around;
 }
 
 /* 2nd part */
