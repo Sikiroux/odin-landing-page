@@ -37,6 +37,7 @@ ul {
 
 .Top {
     background-color: #1F2937;
+    justify-content: center;
 }
 
 
@@ -76,8 +77,7 @@ ul {
 
 
 
-.but-one,
-.but-two {
+.but-one {
     background-color: #3882F6;
     color: white;
     border-radius: 8px;
@@ -114,8 +114,7 @@ img {
     width: 130px;
     height: 130px;
     border-radius: 10px;
-    color: blue;
-    border: 9px;
+    border: 2px solid blue;
 }
 
 .img-container {
@@ -137,8 +136,9 @@ img {
 .quote {
     background-color: #E5E7EB;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #quote  {
@@ -151,4 +151,52 @@ img {
 
 .name {
     font-weight: bold;
+}
+
+/* 4th Part */
+
+.but-two {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid white;
+}
+
+.cont-add {
+    background-color: #3882F6;
+    margin: auto;
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    width: 700px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    color: white;
+}
+
+.line_one {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* 5th Part */
+
+.copyright {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-self: center;
+    padding: 30px;
 }
